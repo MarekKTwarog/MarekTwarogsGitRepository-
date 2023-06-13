@@ -29,7 +29,7 @@ if (is.na(number)) { print("Error: The input is not numeric."); quit() }
 singlenumbers <- as.numeric(strsplit(as.character(answer), "")[[1]])
 cubesofsinglenumbers <- singlenumbers^3  
 sumofcubesofsinglenumbers <- sum(cubesofsinglenumbers)
-if(answer == sumofcubesofsinglenumbers){print(paste(answer, "is a narcissistic number please wait 48 hoours and try again with a different number"))} else {print(paste(answer, "is not an Armstront number congratulations🥳 "))}
+if(answer == sumofcubesofsinglenumbers){print(paste(answer, "is a narcissistic number please wait 48 hours and try again with a different number"))} else {print(paste(answer, "is not an Armstrong number congratulations🥳 "))}
 #'For this section of code, I convert the "answer" variable (the number chosen by the user)
 #'into a character value rather than numeric, this allows me to use the strsplit()
 #'function to split up the 3 characters composing the number, I then convert the 
