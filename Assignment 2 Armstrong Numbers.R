@@ -13,6 +13,12 @@ number <- as.numeric(answer)
 #STEP 2: Check if the user input is numeric. If not, print an error message and 
 #'quit.
 
+if (is.na(number)) { print("Error: The input is not numeric."); quit() }
+#'In this line of code I ask R to check whether the input provided by the user 
+#'is a number, if this is not the case an error message is displayed and the 
+#'R script aborts. I use the is.na function to determine whether the code line number 
+#'4 detected a non numeric value thus causing the variable "number" to equal NA.
+
 #STEP 3: Check if the number is narcissistic. A narcissistic number, or an 
 #'Armstrong number, is a number that is equal to the sum of the cubes of its own 
 #'digits. 153, 370, 371, 407 are three digit Armstrong numbers.
