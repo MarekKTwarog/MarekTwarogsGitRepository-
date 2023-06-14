@@ -2,7 +2,7 @@
 
 answer <- readline(prompt = "Enter a three-digit positive number: ")
 number <- as.numeric(answer)
-#'Here I assign the line of code to the variable answer so that when the person 
+#'Here I assign the line of code to the variable "answer" so that when the person 
 #'running the code enters their value in the console, it automatically will be 
 #'assigned to the "answer" variable.
 #'I also then make sure R knows to treat the user input as a numeric value by
