@@ -1,3 +1,11 @@
+##Code Review Comments:
+
+#Everything is very well done! 
+#I like the way you did as.numeric(strsplit(as.character(answer), "")[[1]]) for splitting the number into its digits 
+#That is a very creative way of looking at it that I had not thought of. 
+#Overall, great job :) 
+
+
 #STEP 1:Prompt the user to enter a three digit positive number
 
 answer <- readline(prompt = "Enter a three-digit positive number: ")
