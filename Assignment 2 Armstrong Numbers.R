@@ -18,6 +18,9 @@ if (is.na(number)) { print("Error: The input is not numeric."); quit() }
 #'is a number, if this is not the case an error message is displayed and the 
 #'R script aborts. I use the is.na function to determine whether the code line number 
 #'4 detected a non numeric value thus causing the variable "number" to equal NA.
+#'I did not includee a line of code here checking whether the number entered is 
+#'3 digits and positive because the question only asked to see if the value is 
+#'numeric.
 
 #STEP 3: Check if the number is narcissistic. A narcissistic number, or an 
 #'Armstrong number, is a number that is equal to the sum of the cubes of its own 
