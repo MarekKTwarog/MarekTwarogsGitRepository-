@@ -4,7 +4,7 @@
 
 playHangman <- function() {
   
-  # R pening text file and assigning contents to "words" variable
+  # R opening text file and assigning contents to "words" variable
   
   words <- scan("WordsHangMan.txt", what = character())
   
@@ -15,14 +15,14 @@ playHangman <- function() {
   magic_word <- sample(words, 1)
   word <- as.list(strsplit(magic_word,"")[[1]])
   
-  # In this linee of code I assign the number of attempts the user gets to answer 
+  # In this line of code I assign the number of attempts the user gets to answer 
   #'the word, since the length of the word may vary, i decide the number of attempts 
   #'a user gets based on the length of the word plus 4 attempts so it is fair for
   #'the user.
   
   attempts <- length(word) + 4
   
-  #Here I assign all of the accepted inputs for the game to the accpted_inputs variable
+  #Here I assign all of the accepted inputs for the game to the accepted_inputs variable
   
   accepted_inputs <- c("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", 
                        "m", "n", "o","p","q", "r", "s", "t", "u", "v", "w", "x", 
